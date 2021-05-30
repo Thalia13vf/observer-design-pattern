@@ -9,7 +9,7 @@ public class NewsAgency {
 
     private String news;
 
-    private List<Channel> channels = new ArrayList<>(); //list of obeservers
+    private List<Channel> channels = new ArrayList<>(); //observers
 
     public void addObserver(Channel channel) {
         this.channels.add(channel);
